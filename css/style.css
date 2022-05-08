@@ -1835,7 +1835,7 @@
     .section1_titulo{
         margin-top: 3rem;
         text-align: center;
-        font-size: 4rem;
+        font-size: 2rem;
         font-family: 'Times New Roman', Times, serif;
 
     }
@@ -1846,16 +1846,31 @@
         margin-left: 0.5rem;
         margin-top: 1rem;
         text-align: center;
-        font-size: 1rem;
+        font-size: 0.7rem;
         font-style: oblique;
         font-family: 'Times New Roman', Times, serif;
     }
 
     .section1_video{
         display: flex;
-        width: 512px;
-        height: 310px;
+        width: auto;
+        height: auto;
         margin-left: 40%;
+    }
+
+    .grid_tabla{
+        column-gap: 1px;
+        row-gap: 3px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 25px 2fr 25px 2fr;
+        grid-template-areas: 
+        "tiempo actividad" 
+        "def-tiempo def-actividad"
+        "ritmo armonia"
+        "def-ritmo def-armonia";
     }
 
     .section1_explicacion_tabla{
@@ -1864,8 +1879,44 @@
         font-style: normal;
     }
 
-    .section1_explicacion_tabla_tiempo{
+    .section1_explicacion_tabla_tiempo_encabezado{
+        font-size: 1rem;
+        border-style: solid;
+        color:#6b0504;
+        background-color: #5ca4a9;
+        text-align: center;
+        border-radius: 1rem;
+    }
 
+    .section1_explicacion_tabla_actividad_encabezado{
+        font-size: 1rem;
+        border-style: solid;
+        color:#6b0504;
+        background-color: #5ca4a9;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .section1_explicacion_tabla_ritmo_encabezado{
+        font-size: 1rem;
+        border-style: solid;
+        color:#6b0504;
+        background-color: #5ca4a9;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .section1_explicacion_tabla_armonia_encabezado{
+        font-size: 1rem;
+        border-style: solid;
+        color:#6b0504;
+        background-color: #5ca4a9;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .section1_explicacion_tabla_tiempo{
+        display: none;
         font-size: medium;
         border-style: solid;
         color:#5d5f71;
@@ -1882,7 +1933,7 @@
     }
 
     .section1_explicacion_tabla_actividad{
-
+        display: none;
         font-size: medium;
         border-style: solid;
         color:#5ca4a9;
@@ -1892,7 +1943,7 @@
     }
 
     .section1_explicacion_tabla_ritmo{
-
+        display: none;
         font-size: medium;
         border-style: solid;
         color:#5ca4a9;
@@ -1902,7 +1953,7 @@
     }
 
     .section1_explicacion_tabla_armonia{
-
+        display: none;
         font-size: medium;
         align-items: center;
         border-style: solid;
@@ -2063,6 +2114,7 @@
         color: #6b0504;
         text-align: center;
         text-decoration: none;
+        font-size: 0.8rem;
         text-align:  center;
         margin-left: 80%;
         margin-bottom: 0.2rem;
@@ -2079,7 +2131,8 @@
     }
 
     .footer_seguinos{
-        margin-top: 0.7rem;
+        font-size: 0.7rem;
+        margin-top: 1rem;
     }
 
     .youtube_logo{
