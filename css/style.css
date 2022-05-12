@@ -30,9 +30,11 @@
 
     .nav_titulo{
         grid-area: "nav_titulo";
+        text-decoration: none;
         margin-top: 2rem; 
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
+        color:#fde8e9;
     }
 
     .nav_lista{
@@ -47,7 +49,7 @@
     .nav__enlace {
         color: #fde8e9;
         text-decoration: none;
-        font-size: 15px;
+        font-size: 14px;
     }
 
 
@@ -304,7 +306,7 @@
         font-size: x-large;
     }
 
-    .section_contactanos_imagenSport{ 
+    .section_contactanos_imagenSport{
         margin-top: 1rem;
         margin-left: 2rem;
     }
