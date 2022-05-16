@@ -42,14 +42,14 @@
         list-style: none;
         display: flex;
         justify-content: right;
-        margin-top: 5rem;
-        gap: 0.3rem;
+        margin-top: 12%;
+        gap: 0.5rem;
     }
 
     .nav__enlace {
         color: #fde8e9;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 19px;
     }
 
 
@@ -299,7 +299,7 @@
     .section_contactanos_organizador{
         display: flex;
         flex-direction: row;
-        margin: 4rem;
+        margin-left: 4%;
     }
     .section_contactanos_form{
         font-family: 'Times New Roman', Times, serif;
@@ -307,8 +307,7 @@
     }
 
     .section_contactanos_imagenSport{
-        margin-top: 1rem;
-        margin-left: 2rem;
+        margin-left: 20%;
     }
 
     .section_boton_scrollup{
