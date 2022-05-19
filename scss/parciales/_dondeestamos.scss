@@ -1,0 +1,28 @@
+
+    .section_dondeestamos_organizador{
+        display: flex;
+        flex-direction: row;
+        margin: 4rem;
+    }
+
+    .section_dondeestamos_tarjeta{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        align-items: center;
+        border-style: solid;
+        border-radius: 1rem;
+        color:#5ca4a9;
+        background-color: #5d5f71;
+        text-align: center;
+    }
+
+    .imagensede{
+        height: 300px;
+        width: 400px;
+    }
+
+    .mapasede{
+        margin-left: 4rem;
+    }

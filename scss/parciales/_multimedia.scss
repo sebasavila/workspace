@@ -1,0 +1,27 @@
+
+    .multimedia_titulos{
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 2rem;
+        font-style: oblique;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .multimedia_lista_artesmarciales{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 250px 250px 250px;
+    }
+
+    .artesmarciales_lista_item{
+        display: flex;
+        text-align: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    .lista_enlace{
+        height: fit-content;
+        width: fit-content;
+    }

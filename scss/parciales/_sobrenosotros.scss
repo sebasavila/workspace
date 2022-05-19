@@ -1,0 +1,42 @@
+
+    .section_sobrenosotros_organizadorTarjetas{
+        display: flex;
+    }
+
+    .section_sobrenosotros_tarjetasprofes{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        align-items: center;
+        padding:0.5rem;
+        border-style: solid;
+        border-radius: 1rem;
+        color:#5ca4a9;
+        background-color: #5d5f71;
+        text-align: center;
+        
+    }
+    .sobrenosotros_tarjetaprofes_nombre{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        align-items: center;
+    }
+
+    .section_sobrenosotros_organizadorexperiencias{
+        display: flex;
+    }
+    .section_sobrenosotros_experiencias{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        margin:1rem;
+        padding:0.5rem;
+        align-items: center;
+        border-style: solid;
+        border-radius: 1rem;
+        color:#5ca4a9;
+        background-color: #5d5f71;
+        text-align: center;
+    }
