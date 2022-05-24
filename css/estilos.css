@@ -51,6 +51,7 @@
     font-style: normal;
   }
   .section1_explicacion_tabla_tiempo_encabezado {
+    grid-area: tiempo;
     font-size: 4rem;
     border-style: solid;
     color: #6b0504;
@@ -59,6 +60,7 @@
     border-radius: 1rem;
   }
   .section1_explicacion_tabla_actividad_encabezado {
+    grid-area: actividad;
     font-size: 4rem;
     border-style: solid;
     color: #6b0504;
@@ -67,6 +69,7 @@
     border-radius: 1rem;
   }
   .section1_explicacion_tabla_ritmo_encabezado {
+    grid-area: ritmo;
     font-size: 4rem;
     border-style: solid;
     color: #6b0504;
@@ -75,6 +78,7 @@
     border-radius: 1rem;
   }
   .section1_explicacion_tabla_armonia_encabezado {
+    grid-area: armonia;
     font-size: 4rem;
     border-style: solid;
     color: #6b0504;
